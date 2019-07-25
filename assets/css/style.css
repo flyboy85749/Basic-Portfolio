@@ -1,0 +1,106 @@
+/* default values
+Author: Bill Hall
+color for headings and backgrounds #4aaaa5
+regular font color for everything except headers #777777
+main header background color #ffffff
+main header border color #cccccc
+footer background color #666666
+main content background color #ffffff
+main content border color #dddddd
+used for headings font-family: 'Georgia', Times, 'Times New Roman', serif;
+for all except headings 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    
+}
+
+
+
+
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+header {
+   
+    border-bottom: 2px solid #cccccc;
+}
+
+
+header h1 {
+    width: 360px;
+    margin-left: 130px;
+    margin-bottom: 0;
+    color: #fff;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+header ul {
+    
+    margin-left: -50px;
+    padding: 20px 50px 10px 0px;
+}
+
+
+
+#main h2 {
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+    padding: 30px 0px 30px 20px; 
+}
+
+img {
+    float: left;
+    margin: 10px 20px 10px 0px;
+    border: 2px solid #b87f06;
+}
+
+section {
+    margin: 30px 0px 60px 0px;
+    border: 1px solid #dddddd;
+    
+}
+
+p {
+    color: #777777;
+}
+
+ul {
+    
+   list-style-type: none;
+   text-decoration: none;
+   margin-right: 0px;
+   padding: 0px;
+}
+
+li {
+    
+    display: inline;
+}
+
+ul li a {
+    padding: 15px;
+    color: #5F5C54;
+    font-size: 25px;
+}
+
+a:hover {
+    
+    text-decoration: none;
+    background-color: aqua;
+}
+
+footer {
+    color: #777777;
+    background-color: #666666;
+}
