@@ -24,8 +24,8 @@ body {
         }
 
         li.current {
+            height: 67px;
             text-decoration-line: underline;
-            
         }
 
         #wrap {
@@ -98,17 +98,18 @@ body {
             left: 850px;
             list-style-type: none;
             text-decoration: none;
-
+            height: 67px;
             padding: 0px;
         }
 
         li {
-
+            
             display: inline;
         }
 
         ul li a {
             padding: 5px;
+            height: 67px;
             color: #5F5C54;
             font-size: 25px;
             text-decoration: none;
@@ -125,14 +126,32 @@ body {
         }
 
         .image-1 {
+            float: left;
             box-shadow: 5px 10px 8px 5px #888888;
-            margin: 0px 20px 30px 0px;
+            margin: 10px 5px 30px 0px;
+        }
+
+        .image-1-credit {
+            position: relative;
+            top: 250px;
+            right: 300px;
+            color: #fff;
+            font-size: 12px;
+            
         }
 
         .image-2 {
             float: right;
             box-shadow: 5px 10px 8px 5px #888888;
-            margin: 0px 0px 30px 10px;
+            margin: -18px 0px 30px 5px;
+        }
+
+        .image-2-credit {
+            position: relative;
+            top: 250px;
+            right: 30px;
+            color: #fff;
+            font-size: 12px;
         }
 
 
@@ -141,16 +160,41 @@ body {
             margin: 0px 20px 20px 0px;
         }
 
+        .image-3-credit {
+            position: relative;
+            top: -55px;
+            right: -105px;
+            color: #fff;
+            font-size: 12px;
+        }
+
         .image-4 {
             float: right;
+            margin-top: -295px;
             box-shadow: 5px 10px 8px 5px #888888;
-            margin: 0px 0px 20px 0px;
+            
+        }
+
+        .image-4-credit {
+            position: relative;
+            top: -55px;
+            left: 390px;
+            color: #fff;
+            font-size: 12px;
         }
 
         .image-5 {
-            
             box-shadow: 5px 10px 8px 5px #888888;
-            margin: 10px 0px 20px 0px;
+            margin: -15px 615px 20px 0px;
+        }
+
+        .image-5-credit {
+            position: relative;
+            top: -55px;
+            left: 100px;
+            color: #fff;
+            font-size: 12px;
+            
         }
 
 
