@@ -19,8 +19,8 @@
 
             <div class="col">
                 <nav class="navigation">
-                    <button aria-expanded="false" aria-controls="menu">Menu</button>
-                    <ul id="menu">
+                   
+                    <ul>
                         <li class="current"><a href="index.html">About</a></li>
                         <li><a href="portfolio.html">Portfolio</a></li>
                         <li><a href="contact.html">Contact</a></li>
@@ -70,16 +70,7 @@
     <footer>
         <p>Copyright &copy; 2019 William H. Hall III</p>
     </footer>
-    <script type="text/javascript">
-        const toggleMenu = document.querySelector(".navigation button");
-        const menu = document.querySelector(".navigation ul");
 
-        toggleMenu.addEventListener("click", function () {
-            const open = JSON.parse(toggleMenu.getAttribute("aria-expanded"));
-            toggleMenu.setAttribute("aria-expanded", !open);
-            menu.hidden = !menu.hidden;
-        });
-    </script>
 
 </body>
 
