@@ -291,7 +291,8 @@ body {
                 float: left;
                 text-align: left;
             }
-            
+
+                       
           }
 
         @media screen and (max-width: 640px) {
@@ -327,5 +328,8 @@ body {
                 clear: both;
             }
 
-            
+            @media ( min-width: 40rem ) {
+                #navigation button { display: none }
+                #menu { display: block }
+              }
         }
