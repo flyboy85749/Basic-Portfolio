@@ -8,5 +8,5 @@ This is a basic portfolio website created with HTML and CSS. It is not mobile fr
 
 ## Usage
 
-This was my first attempt at creating a portfolio as part of the Univeristy of Arizona Coding Bootcamp, and I was very heppy with the result. Not the most sophisticated design, but clean and effective. It is best viewed on laptops or tablets.
+This was my first attempt at creating a portfolio as part of the Univeristy of Arizona Coding Bootcamp, and I was very happy with the result. Not the most sophisticated design, but clean and effective. It is best viewed on laptops or tablets.
 
